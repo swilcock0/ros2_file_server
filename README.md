@@ -1,37 +1,7 @@
-# ROS File Server
+# ROS2 File Server
 
-A detached fork of [ROS# File Server](https://github.com/siemens/ros-sharp/tree/master/ROS/file_server) to keep deployments simple and reduce dependencies if the full ROS# package is not needed.
+A detached fork of [ROS# File Server](https://github.com/siemens/ros-sharp/tree/master/ROS/file_server) to keep deployments simple and reduce dependencies if the full ROS# package is not needed. Migrated to ROS2 by Sam Wilcock.
 
-## Installation
-
-Within your catkin workspace, clone this repository:
-
-    cd ~/catkin_ws/src
-    git clone https://github.com/gramaziokohler/ros_file_server.git
-
-Install all dependencies:
-
-    rosdep install -y --from-paths . --ignore-src --rosdistro kinetic
-
-And build with `catkin build`:
-
-    cd ~/catkin_ws
-    catkin build
-
-Or `catkin_make` if that's your thing:
-
-    cd ~/catkin_ws
-    catkin_make
-
-Finally, source your catkin workspace:
-
-    source ~/catkin_ws/devel/setup.bash
-
-## Getting started
-
-Once configured, starting the file server is simple:
-
-    roslaunch file_server file_server.launch
 
 ## License
 
